@@ -8,6 +8,18 @@
 ### RALGO AI supports both slash commands and prefix commands (Prefix: `.` [period])
 
 ----
+## Content:
++ [Things to keep in Mind](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#things-to-keep-in-mind)
++ [Price Predictions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#price-predictions)
++ [Support-resistance levels](https://github.com/rudra-5/RALGO-AI/edit/main/commands.md#support-resistance-levels)
++ [watchlist](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist)
++ [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener)
++ [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#company-financials-stocks-only)
++ [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#company-financials-stocks-only)
++ [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charts)
++ [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charts)
+
+----
 ### Things to keep in mind
 
 #### Possible Asset Formats
