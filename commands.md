@@ -138,14 +138,19 @@ Example:
 + `.screen active`
 + `.screen trending`
 
-## Company Financials
+## Company Financials (Stocks only)
 
-+ Get Earnings chart
-  + command: `.earnings chart {asset}`
-  + example: `.earnings chart TSLA`
-+ Get Daily Upcoming Earnings
-  + command: `.earnings upcoming`
-  + alias: `.earnings upcoming`
+<em><b>Get Earnings chart</b></em>
+
+Command: `.earnings chart {Stock Symbol}`
+
+Example:
++ `.earnings chart TSLA`
++ `.earnings chart AAPL`
+
+<em><b>Get Daily Upcoming Earnings</b></em>
+
+Command: `.earnings upcoming`
 
 ## Charts
 
@@ -154,24 +159,34 @@ Almost all the charting commands start with `.c `
 Comamnds: `.c {What you want to chart} {asset}`
 
 What can you get charts of?
-+ Get price charts of asset for a range of timeframe. It will show upto 60 candles on the chart.
-  + `.c p {asset}`
-  + Optional Paramenters:
-    + Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
-    
-  + Example:
-    + `.c p btc-usdt`
-    + `.c p NFLX 30m`
-    + `.c p GBPJPY 1d` <br></br>
-+ Compare 2 asset's price actions on a single chart
-  + `.c co {asset1} {asset2}`
-  + Optional Parameters:
-    + Period: Should be greater than 1d. [Default: 3mo]
-  + Example:
-    + `.c co AAPL NVDA`
-    + `.c co BTC-USD ETH-USD`
-    + `.c co EURUSD GBPUSD`
-  + Note: you can only compare same type of assets
+<em><b>Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts</b></em>
+
+Command: `.c p {asset}`
+
+Optional Paramenters:
++ Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
++ [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/edit/main/commands.md#timeframe-suffix)
+
+Example:
++ `.c p btc-usdt`
++ `.c p NFLX 30m`
++ `.c p GBPJPY 1d` 
+
+
+<br></br>
+
+
+<em><b>Compare 2 asset's price actions on a single chart</b></em>
+
+Command: `.c co {asset1} {asset2}`
+Optional Parameters:
++ Period: Should be greater than 1d. [Default: 3mo]
+Example:
++ `.c co AAPL NVDA`
++ `.c co BTC-USD ETH-USD`
++ `.c co EURUSD GBPUSD`
+
+Note: you can only compare same type of assets
 
 
 
