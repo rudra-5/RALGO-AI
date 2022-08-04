@@ -168,12 +168,12 @@ Command: `.earnings upcoming`
 
 Almost all the charting commands start with `.c `
 
-Comamnds: `.c {What you want to chart} {asset}`
+Commands: `.c {What you want to chart} {asset}`
 
 What can you get charts of?
 
 
-<em><b>Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts</b></em>
+### Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
 Command: `.c p {asset}`
 
@@ -188,7 +188,7 @@ Example:
 
 
 
-<em><b>Compare 2 asset's price actions on a single chart</b></em>
+### Compare 2 asset's price actions on a single chart
 
 Command: `.c co {asset1} {asset2}`
 Optional Parameters:
