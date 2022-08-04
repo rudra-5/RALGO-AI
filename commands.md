@@ -31,7 +31,7 @@
 Get Daily Closing price predictions. These prices are estimated by an Artificial Intelligence which is trained on years of data.
 
 The Message responed by the bot consists of the current price of the asset, Predicted price, Day High, Day Low, Support-Resistance and indicator value (optional)
-Results are the best when used ain combination with [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/edit/main/commands.md#support-resistance-levels) and other indicators.
+Results are the best when used ain combination with [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels) and other indicators.
 
 You can also Upvote/Downvote a prediction based on if you think the predictions are accurte or not. You can only vote when the markets are open.
  
@@ -167,15 +167,13 @@ Command: `.c p {asset}`
 
 Optional Paramenters:
 + Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
-+ [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/edit/main/commands.md#timeframe-suffix)
++ [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
 
 Example:
 + `.c p btc-usdt`
 + `.c p NFLX 30m`
 + `.c p GBPJPY 1d` 
 
-
-<br></br>
 
 
 <em><b>Compare 2 asset's price actions on a single chart</b></em>
