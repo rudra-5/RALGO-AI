@@ -159,6 +159,8 @@ Almost all the charting commands start with `.c `
 Comamnds: `.c {What you want to chart} {asset}`
 
 What can you get charts of?
+
+
 <em><b>Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts</b></em>
 
 Command: `.c p {asset}`
