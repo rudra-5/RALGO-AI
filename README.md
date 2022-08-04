@@ -31,7 +31,7 @@ So, what are you waiting for? [Add RALGO AI](https://discord.com/api/oauth2/auth
 ----
 
 Let's keep in touch! Join our support Discord server where you can get help, report problems, and make suggestions for future updates and features!<br>
-Join the support server here: [discord.gg/RALGO AI](https://discord.gg/AWP4eywqZW)
+Join the support server here: [discord.gg/RALGO_AI](https://discord.gg/AWP4eywqZW)
 <br><br>
 
 <a href="https://top.gg/bot/929247872849960970">
