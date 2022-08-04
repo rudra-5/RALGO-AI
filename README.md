@@ -18,7 +18,7 @@ So, what are you waiting for? [Add RALGO AI](https://discord.com/api/oauth2/auth
 + [watchlist](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist)
 + [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener)
 + [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#company-financials-stocks-only)
-+ pDaily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#company-financials-stocks-only)
++ [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#company-financials-stocks-only)
 + [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charts)
 + [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charts)
 
