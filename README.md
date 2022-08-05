@@ -5,11 +5,9 @@ RALGO AI is a free AI-integrated discord bot that provides a lot of tools and da
 
 ------
 
-RALGO AI bot can be a fantastic addition to your Discord trading community whether it is a Stocks trading community, crypto community or a Forex trading community, an incredibly strong and simple-to-use Discord bot!
+RALGO AI bot is an incredibly powerful and simple-to-use Discord bot!
 
 So, what are you waiting for? [Add RALGO AI](https://discord.com/api/oauth2/authorize?client_id=929247872849960970&permissions=285615443008&scope=bot%20applications.commands) to your server today and transform your community into a trading powerhouse!
-
-#### The full detailed explanation of all the commands and their usage can be found in the [commands document](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md).
 
 ----
 ### Main Features:
