@@ -152,7 +152,7 @@ Example:
 
 ## Company Financials (Stocks only)
 
-<em><b>Get Earnings chart</b></em>
+### Get Earnings chart
 
 Command: `.earnings chart {Stock Symbol}`
 
@@ -160,7 +160,7 @@ Example:
 + `.earnings chart TSLA`
 + `.earnings chart AAPL`
 
-<em><b>Get Daily Upcoming Earnings</b></em>
+### Get Daily Upcoming Earnings
 
 Command: `.earnings upcoming`
 
