@@ -42,10 +42,10 @@
 
 Get Daily Closing price predictions. These prices are estimated by an Artificial Intelligence which is trained on years of data.
 
-The Message responed by the bot consists of the current price of the asset, Predicted price, Day High, Day Low, Support-Resistance and indicator value (optional)
-Results are the best when used ain combination with [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels) and other indicators.
+The Message sent by the bot consists of the current price of the asset, Predicted price, Day High, Day Low, Support-Resistance and indicator value (optional)
+Results are the best when used in combination with [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels) and other indicators.
 
-You can also Upvote/Downvote a prediction based on if you think the predictions are accurte or not. You can only vote when the markets are open.
+You can also Upvote/Downvote a prediction if you think the predictions are accurate or not. You can only vote when the markets are open.
  
 Command:  `.pred {asset}`
 
@@ -93,11 +93,11 @@ Get three levels of Support and Resistance based on Pivot-Point Indicator.
 command: `.sr {level} {asset}`
 
 There are 2 levels available:
-+ Major
++ Major (Weekly s/r)
   + `.sr ma btc-usd`: Major S/R of BTC-USD
   + `.sr ma AAPL`: Major S/R of AAPL
   + `.sr ma eurusd`: Major S/R of EURUSD
-+ Minor
++ Minor (Daily s/r)
   + `.sr mi btc-usd`: Minor S/R of BTC-USD
   + `.sr mi AAPL`: Minor S/R of AAPL
   + `.sr mi eurusd`: Minor S/R of EURUSD
