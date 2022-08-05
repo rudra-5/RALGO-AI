@@ -16,8 +16,8 @@
 + [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener)
 + [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#company-financials-stocks-only)
 + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#company-financials-stocks-only)
-+ [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charts)
-+ [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charts)
++ [Price Charts]([https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-price-charts-of-asset-for-a-range-of-timeframe-it-will-show-upto-60-candles-on-the-charts))
++ [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#compare-2-assets-price-actions-on-a-single-chart)
 
 ----
 ### Things to keep in mind
