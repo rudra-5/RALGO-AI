@@ -58,7 +58,7 @@ Example:
 
 Optional Parameters:
 + Indicator - It must be one of the indicators given below
-+ Indicator timeframe - 3 timeframes are available [h, d, w]. Default is `d`
++ Indicator timeframe - 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo. Default is `1d`
 + Indicator length - Length of the indicator
 
 Note: Optional parameters must be given in the particular order they are mentioned in above, if you are using prefix commands
