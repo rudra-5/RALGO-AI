@@ -136,7 +136,7 @@ Screeners available for Predictions:
 Get screened assets, for example, get top gainers or losers.
 Command: `.screen {screener name}`
 
-Alias: `.screener {screener name}`
+Alias: `.screener`
 
 Available Screeners:
 + gainers (stocks)
@@ -154,6 +154,8 @@ Example:
 
 ### Get Earnings chart
 
+Get earnings chart, Company's last 4 Quarter **Estimated vs. Actual Earnings** and its current quarter's Estimate
+
 Command: `.earnings chart {Stock Symbol}`
 
 Example:
@@ -162,19 +164,23 @@ Example:
 
 ### Get Daily Upcoming Earnings
 
+Get a list of all the companies whose quarterly earnings will be released today.
+
 Command: `.earnings upcoming`
 
-## Charts
+## Charting Commands
 
 Almost all the charting commands start with `.c `
 
 Commands: `.c {chart type} {parameters}`
 
-### Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
+### Get price charts
+Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
 Command: `.c price {asset}`
 
 Aliases: `.c p`
+
 Optional Paramenters:
 + Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
 + [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
@@ -185,20 +191,22 @@ Example:
 + `.c p GBPJPY 1d` 
 
 
-
-### Compare 2 asset's price actions on a single chart
+### Comparing Price Actions
+Compare price actions of 2 asset's price actions on a single chart
 
 Command: `.c compare {asset1} {asset2}`
 
 Aliases: `.c comp`, `.c co`
+
 Optional Parameters:
 + Period: Should be greater than 1d. [Default: 3mo]
+
 Example:
 + `.c co AAPL NVDA`
 + `.c co BTC-USD ETH-USD`
 + `.c co EURUSD GBPUSD`
 
-Note: you can only compare same type of assets
+Note: you can only compare same type of asset, for example: you can only compare a stock to another stock, crypto to another crypto and forex to another forex
 
 
 
