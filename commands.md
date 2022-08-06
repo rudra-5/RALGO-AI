@@ -168,15 +168,13 @@ Command: `.earnings upcoming`
 
 Almost all the charting commands start with `.c `
 
-Commands: `.c {What you want to chart} {asset}`
-
-What can you get charts of?
-
+Commands: `.c {chart type} {asset}`
 
 ### Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
-Command: `.c p {asset}`
+Command: `.c price {asset}`
 
+Aliases: `.c p`
 Optional Paramenters:
 + Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
 + [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
@@ -190,7 +188,9 @@ Example:
 
 ### Compare 2 asset's price actions on a single chart
 
-Command: `.c co {asset1} {asset2}`
+Command: `.c compare {asset1} {asset2}`
+
+Aliases: `.c comp`, `.c co`
 Optional Parameters:
 + Period: Should be greater than 1d. [Default: 3mo]
 Example:
