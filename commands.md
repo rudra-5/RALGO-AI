@@ -168,7 +168,7 @@ Command: `.earnings upcoming`
 
 Almost all the charting commands start with `.c `
 
-Commands: `.c {chart type} {asset}`
+Commands: `.c {chart type} {parameters}`
 
 ### Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
