@@ -11,7 +11,7 @@
 ## Content:
 + [Things to keep in Mind](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#things-to-keep-in-mind)
 + [Price Predictions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#price-predictions)
-+ [Support-resistance levels](https://github.com/rudra-5/RALGO-AI/edit/main/commands.md#support-resistance-levels)
++ [Support-resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels)
 + [watchlist](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist)
 + [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener)
 + [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-earnings-chart)
