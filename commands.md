@@ -16,7 +16,7 @@
 + [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener)
 + [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-earnings-chart)
 + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings)
-+ [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-price-charts)
++ [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
 + [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions)
 
 ----
