@@ -27,6 +27,16 @@ Let's keep in touch! Join our support Discord server where you can get help, rep
 Join the support server here: [discord.gg/RALGO_AI](https://discord.gg/AWP4eywqZW)
 <br><br>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <a href="https://top.gg/bot/929247872849960970">
   <img src="https://top.gg/api/widget/929247872849960970.svg">
 </a>
