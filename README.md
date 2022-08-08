@@ -19,6 +19,7 @@ So, what are you waiting for? [Add RALGO AI](https://discord.com/api/oauth2/auth
 + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings)
 + [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-price-charts)
 + [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions)
++ [Bitcoin Fear-Greed Index Chart](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
 
 
 ----
