@@ -18,17 +18,21 @@
 + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings)
 + [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
 + [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions)
++ [Bitcoin's Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
 
 ----
 ### Things to keep in mind
 
 #### Possible Asset Formats
 + Crypto Currencies => {Symbol} - {Symbol/Currency} 
-  + BTC-USD, ETH-USDT, SOL-CAD, SOL-BTC <br></br>
+  + BTC-USD, ETH-USDT, SOL-CAD, SOL-BTC
 + Stocks => {Symbol} 
-  + NFLX, AMZN, GOOGL, SPY <br></br>
+  + NFLX, AMZN, GOOGL, SPY
 + Forex => {Forex pair} 
   + USDJPY, EURUSD, GBPUSD
++ Index => {Index symbol from [Yahoo Finance](https://finance.yahoo.com/)}
+
+
 #### Timeframe Suffix:
 + m - minutes
 + h - hours
@@ -208,7 +212,11 @@ Example:
 
 Note: you can only compare same type of asset, for example: you can only compare a stock to another stock, crypto to another crypto and forex to another forex
 
+## Bitcoin's Fear-greed Index
 
+The Fear & Greed Index is a way to gauge market movements and whether stocks are fairly priced. The theory is based on the logic that excessive fear tends to drive down share prices, and too much greed tends to have the opposite effect.
+
+Command: `.fg`
 
 
 
