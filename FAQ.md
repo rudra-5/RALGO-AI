@@ -1,7 +1,7 @@
 # Frequently asked Questions
 
 ## Why does it show me that I have exceeded the command's limit?
-Some Commands are premium commands and in the free version, you have a total of 5 commands daily to use those premium commands. These commands include Price Prediction Command, Watchlist prediction command, Screeners Command and Compare Charts Command. To get access to unlimited commands, you will have to get our [patreon Subscription](https://www.patreon.com/ralgo).
+Some Commands are premium commands and in the free version, you have a total of 5 commands daily to use those premium commands. These commands include Price Prediction Command, Watchlist prediction command, Screeners Command, Daily Earnings Command and Compare Charts Command. To get access to unlimited commands, you will have to get our [patreon Subscription](https://www.patreon.com/ralgo).
 
 ## How can I add more than 7 assets to my watchlist?
 For the free version, there is a limit of 7 assets. You can increase the limit of your watchlist up to 20 assets by getting our [patreon subscription](https://www.patreon.com/ralgo).
