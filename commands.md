@@ -5,7 +5,7 @@
 
 #### To resolve the issue, [re-invite](https://discord.com/api/oauth2/authorize?client_id=929247872849960970&permissions=285615443008&scope=bot%20applications.commands) the bot to your server with all its required permissions. If the problem still persists, please contact us on our [Support server](https://discord.gg/AWP4eywqZW).
 
-### RALGO AI supports both slash commands and prefix commands (Prefix: `.` [period])
+### RALGO AI supports only slash commands
 
 ----
 ## Content:
@@ -51,21 +51,19 @@ Results are the best when used in combination with [Support-Resistance levels](h
 
 You can also Upvote/Downvote a prediction if you think the predictions are accurate or not. You can only vote when the markets are open.
  
-Command:  `.pred {asset}`
+Command:  `/pred [asset] <indicator> <indicator length> <indicator timeframe>`
 
 Example:
-+ `.pred btc-usdt`: price prediction of Bitcoin in terms of USD Tether
-+ `.pred eth-btc`: price prediction of Etherium in terms of Bitcoin
-+ `.pred btc-usd`: price Prediction of Bitcoin interms of US Dollars
-+ `.pred spy`: Price prediction of Spy
-+ `.pred eurusd`: Price prediction of EURUSD forex pair <br></br>
++ `/pred btc-usdt`: price prediction of Bitcoin in terms of USD Tether
++ `/pred eth-btc`: price prediction of Etherium in terms of Bitcoin
++ `/pred btc-usd`: price Prediction of Bitcoin interms of US Dollars
++ `/pred spy`: Price prediction of Spy
++ `/pred eurusd`: Price prediction of EURUSD forex pair <br></br>
 
 Optional Parameters:
 + Indicator - It must be one of the indicators given below
 + Indicator timeframe - 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo. Default is `1d`
 + Indicator length - Length of the indicator
-
-Note: Optional parameters must be given in the particular order they are mentioned in above, if you are using prefix commands
 
 Example:  `.pred btc-usd ema h 25`=> price prediction of BTC-USD with hourly EMA of length 25
 
@@ -73,74 +71,63 @@ Example:  `.pred btc-usd ema h 25`=> price prediction of BTC-USD with hourly EMA
 Available indicators: 
 + Relative Strength Index => current RSI value
   + Default: 14
-  + `.pred btc-usd rsi`
+  + `/pred btc-usd rsi`
 + Average True Range => current ATR value
   + Default: 14
-  + `.pred usdjpy atr`
+  + `/pred usdjpy atr`
 + Stochastic RSI  => status of the asset [oversold, overbought, bought, sold, neutral]
   + Default: 14
-  + `.pred amzn stochrsi`
+  + `/pred amzn stochrsi`
 + Exponential Moving Average => current EMA value
   + Default: 10
-  + `.pred nflx ema`
+  + `/pred nflx ema`
 + Supertrend  => trend [uptrend/downtrend]
   + Default: 10
-  + `.pred eth-usd supertrend`
+  + `/pred eth-usd supertrend`
 + Relative Volatility Index => current RVI value
   + Default: 14
-  + `.pred btc-usd rvi`
+  + `/pred btc-usd rvi`
 
 ## Support-Resistance Levels
 
 Get three levels of Support and Resistance based on Pivot-Point Indicator.
 
-command: `.sr {level} {asset}`
+command: `/sr [level] [asset]`
 
 There are 2 levels available:
 + Major (Weekly s/r)
-  + `.sr ma btc-usd`: Major S/R of BTC-USD
-  + `.sr ma AAPL`: Major S/R of AAPL
-  + `.sr ma eurusd`: Major S/R of EURUSD
+  + `/sr maj btc-usd`: Major S/R of BTC-USD
+  + `/sr maj AAPL`: Major S/R of AAPL
+  + `/sr maj eurusd`: Major S/R of EURUSD
 + Minor (Daily s/r)
-  + `.sr mi btc-usd`: Minor S/R of BTC-USD
-  + `.sr mi AAPL`: Minor S/R of AAPL
-  + `.sr mi eurusd`: Minor S/R of EURUSD
+  + `/sr min btc-usd`: Minor S/R of BTC-USD
+  + `/sr min AAPL`: Minor S/R of AAPL
+  + `/sr min eurusd`: Minor S/R of EURUSD
 
 ## Watchlist
 
 Create a free watchlist consisting upto 7 assets and a premium watchlist with upto 20 assets.
 
 + Add assets to your watchlist
-  + Command: `.wl+ {asset}`
-  + Example: `.wl+ btc-usd`
+  + Command: `/wl-add [asset]`
+  + Example: `/wl-add btc-usd`
 
 + Remove assets from your watchlist
-  + Command: `.wl- {asset}`
-  + Example: `.wl- btc-usd`
+  + Command: `/wl-remove [asset]`
+  + Example: `/wl-remove btc-usd`
 
 You can then get the price predictions or get current prices of the assets in your watchlist or screened assets.
 
 + Get Predicted prices of your watchlist
-  + Command: `.wl`
+  + Command: `/wl`
 
 + Get current prices of your watchlist
-  + Command: `.cwl`
-
-+ Get Predicted prices of screened assets
-  + Command: `.wl {screener name}`
-  + Example: `.wl gainers`
-
-Screeners available for Predictions:
-+ gainers
-+ losers
-+ active
+  + Command: `/cwl`
 
 ## Screener
 
 Get screened assets, for example, get top gainers or losers.
-Command: `.screen {screener name}`
-
-Alias: `.screener`
+Command: `/screen [screener name]`
 
 Available Screeners:
 + gainers (stocks)
@@ -148,67 +135,57 @@ Available Screeners:
 + active (stocks)
 + trending (crypto)
 
-Example:
-+ `.screen gainers`
-+ `.screen losers`
-+ `.screen active`
-+ `.screen trending`
-
 ## Company Financials (Stocks only)
 
 ### Get Earnings chart
 
 Get earnings chart, Company's last 4 Quarter **Estimated vs. Actual Earnings** and its current quarter's Estimate
 
-Command: `.earnings chart {Stock Symbol}`
+Command: `/earnings chart [Stock Symbol]`
 
 Example:
-+ `.earnings chart TSLA`
-+ `.earnings chart AAPL`
++ `/earnings chart TSLA`
++ `/earnings chart AAPL`
 
 ### Get Daily Upcoming Earnings
 
 Get a list of all the companies whose quarterly earnings will be released today.
 
-Command: `.earnings upcoming`
+Command: `/earnings upcoming`
 
 ## Charting Commands
 
-Almost all the charting commands start with `.c `
+Almost all the charting commands start with `/c `
 
-Commands: `.c {chart type} {parameters}`
+Commands: `/c [chart type] [parameters]`
 
 ### Get price charts
 Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
-Command: `.c price {asset}`
-
-Aliases: `.c p`
+Command: `/c price [asset]`
 
 Optional Paramenters:
 + Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
 + [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
 
 Example:
-+ `.c p btc-usdt`
-+ `.c p NFLX 30m`
-+ `.c p GBPJPY 1d` 
++ `/c p btc-usdt`
++ `/c p NFLX 30m`
++ `/c p GBPJPY 1d` 
 
 
 ### Comparing Price Actions
 Compare price actions of 2 asset's price actions on a single chart
 
-Command: `.c compare {asset1} {asset2}`
-
-Aliases: `.c comp`, `.c co`
+Command: `/c compare [asset1] [asset2]`
 
 Optional Parameters:
 + Period: Should be greater than 1d. [Default: 3mo]
 
 Example:
-+ `.c co AAPL NVDA`
-+ `.c co BTC-USD ETH-USD`
-+ `.c co EURUSD GBPUSD`
++ `/c co AAPL NVDA`
++ `/c co BTC-USD ETH-USD`
++ `/c co EURUSD GBPUSD`
 
 Note: you can only compare same type of asset, for example: you can only compare a stock to another stock, crypto to another crypto and forex to another forex
 
@@ -216,7 +193,7 @@ Note: you can only compare same type of asset, for example: you can only compare
 
 The Fear & Greed Index is a way to gauge market movements and whether stocks are fairly priced. The theory is based on the logic that excessive fear tends to drive down share prices, and too much greed tends to have the opposite effect.
 
-Command: `.fg`
+Command: `/fg`
 
 
 
