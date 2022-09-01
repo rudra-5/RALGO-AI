@@ -11,16 +11,18 @@ So, what are you waiting for? [Add RALGO AI](https://discord.com/api/oauth2/auth
 
 ----
 ### Main Features:
-+ [Price Predictions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#price-predictions)
-+ [Support-resistance levels](https://github.com/rudra-5/RALGO-AI/edit/main/commands.md#support-resistance-levels)
-+ [watchlist](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist)
-+ [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener)
-+ [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-earnings-chart)
-+ [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings)
-+ [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-price-charts)
-+ [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions)
-+ [Bitcoin Fear-Greed Index Chart](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
-
++ Price Predictions
++ Support-resistance levels
++ News
++ watchlist
++ Screener
++ Earnings charts
++ Daily Upcoming Earnings
++ Price Charts
++ Compare 2 asset's Price actions
++ Bitcoin Fear-Greed Index Chart
++ Stocks Fear-Greed Index Chart
++ Forex longs vs. shorts
 
 ----
 
