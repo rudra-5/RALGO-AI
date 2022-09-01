@@ -13,7 +13,7 @@ So, what are you waiting for? [Add RALGO AI](https://discord.com/api/oauth2/auth
 ### Main Features:
 + Price Predictions
 + Support-resistance levels
-+ News
++ News Aticles
 + watchlist
 + Screener
 + Earnings charts
