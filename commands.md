@@ -216,6 +216,14 @@ Command: `/lsx [forex pair]`
 
 Example: `/lsx EURUSD`
 
+## NEWS Articles
+
+Get top 10 news articles about any asset.
+Use the intended [assets formats](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#possible-asset-formats) to get the correct articles
+
+Command: `/news [asset]`
+
+Example: `/news btc-usd`
 
 
 
