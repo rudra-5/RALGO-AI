@@ -18,7 +18,9 @@
 + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings)
 + [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
 + [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions)
-+ [Bitcoin's Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
++ [Market Sentiments](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#market-sentiments)
+  + [Bitcoin's Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
+  + [Stocks Fear-Greed Index]()
 
 ----
 ### Things to keep in mind
@@ -169,9 +171,9 @@ Optional Paramenters:
 + [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
 
 Example:
-+ `/c p btc-usdt`
-+ `/c p NFLX 30m`
-+ `/c p GBPJPY 1d` 
++ `/c price btc-usdt`
++ `/c price NFLX 30m`
++ `/c price GBPJPY 1d` 
 
 
 ### Comparing Price Actions
@@ -183,17 +185,35 @@ Optional Parameters:
 + Period: Should be greater than 1d. [Default: 3mo]
 
 Example:
-+ `/c co AAPL NVDA`
-+ `/c co BTC-USD ETH-USD`
-+ `/c co EURUSD GBPUSD`
++ `/c compare AAPL NVDA`
++ `/c compare BTC-USD ETH-USD`
++ `/c compare EURUSD GBPUSD`
 
 Note: you can only compare same type of asset, for example: you can only compare a stock to another stock, crypto to another crypto and forex to another forex
 
-## Bitcoin's Fear-greed Index
+## Market Sentiments
 
-The Fear & Greed Index is a way to gauge market movements and whether stocks are fairly priced. The theory is based on the logic that excessive fear tends to drive down share prices, and too much greed tends to have the opposite effect.
+### Bitcoin's Fear-greed Index
 
-Command: `/fg`
+The Bitcoin's Fear & Greed Index is a way to gauge market movements and market sentiments. The theory is based on the logic that excessive fear tends to drive down Ceypto prices, and too much greed tends to have the opposite effect.
+
+Command: `/fgc`
+
+### Stocks Fear-greed Index
+
+The Stocks Fear & Greed Index is a way to gauge market movements and whether stocks are fairly priced. The theory is based on the logic that excessive fear tends to drive down share prices, and too much greed tends to have the opposite effect.
+
+Command: `/fgs`
+
+### Forex Longs vs. Shorts
+
+Looking at Longs vs. shorts is a way to figure out the direction the price is moving in.
+
+Command: `/lsx [forex pair]`
+
+Example: `/lsx EURUSD`
+
+
 
 
 
