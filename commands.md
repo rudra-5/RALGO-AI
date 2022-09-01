@@ -24,6 +24,7 @@
   + [Bitcoin's Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
   + [Stocks Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#stocks-fear-greed-index)
   + [Forex longs vs. shorts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#forex-longs-vs-shorts)
++ [News Articles](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#news-articles)
 
 ----
 ### Things to keep in mind
