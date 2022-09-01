@@ -11,16 +11,19 @@
 ## Content:
 + [Things to keep in Mind](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#things-to-keep-in-mind)
 + [Price Predictions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#price-predictions)
-+ [Support-resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels)
-+ [watchlist](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist)
++ [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels)
++ [Watchlist](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist)
 + [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener)
-+ [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-earnings-chart)
-+ [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings)
-+ [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
-+ [Compare 2 asset's Price actions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions)
++ [Company Financials](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
+  + [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-earnings-chart)
+  + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings)
++ [Charting Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
+  + [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
+  + [Comparison charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions)
 + [Market Sentiments](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#market-sentiments)
   + [Bitcoin's Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
-  + [Stocks Fear-Greed Index]()
+  + [Stocks Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#stocks-fear-greed-index)
+  + [Forex longs vs. shorts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#forex-longs-vs-shorts)
 
 ----
 ### Things to keep in mind
