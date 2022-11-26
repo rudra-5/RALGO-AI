@@ -71,7 +71,9 @@ Optional Parameters:
 + Indicator timeframe - 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo. Default is `1d`
 + Indicator length - Length of the indicator
 
-Example:  `.pred btc-usd ema h 25`=> price prediction of BTC-USD with hourly EMA of length 25
+
+![image](https://user-images.githubusercontent.com/65751992/204083301-98171513-8103-47b1-81f4-240f443f30f8.png)
+
 
 
 Available indicators: 
@@ -81,7 +83,7 @@ Available indicators:
 + Average True Range => current ATR value
   + Default: 14
   + `/pred usdjpy atr`
-+ Stochastic RSI  => status of the asset [oversold, overbought, bought, sold, neutral]
++ Stochastic RSI  => Current StochRSI value
   + Default: 14
   + `/pred amzn stochrsi`
 + Exponential Moving Average => current EMA value
@@ -99,6 +101,9 @@ Available indicators:
 Get three levels of Support and Resistance based on Pivot-Point Indicator.
 
 command: `/sr [level] [asset]`
+
+![image](https://user-images.githubusercontent.com/65751992/204083764-050b5acb-3bc6-4757-9b95-5a1a6cda540a.png)
+
 
 There are 2 levels available:
 + Major (Weekly s/r)
@@ -118,9 +123,15 @@ Create a free watchlist consisting upto 7 assets and a premium watchlist with up
   + Command: `/wl-add [asset]`
   + Example: `/wl-add btc-usd`
 
+  ![image](https://user-images.githubusercontent.com/65751992/204083812-fd3b11d7-3dd0-49e0-a815-b00cabeb37cc.png)
+
+
 + Remove assets from your watchlist
   + Command: `/wl-remove [asset]`
   + Example: `/wl-remove btc-usd`
+  
+  ![image](https://user-images.githubusercontent.com/65751992/204083852-460fa216-b27d-4bc8-a8fa-0a1e7f43436c.png)
+
 
 You can then get the price predictions or get current prices of the assets in your watchlist or screened assets.
 
@@ -153,6 +164,9 @@ Example:
 + `/earnings chart TSLA`
 + `/earnings chart AAPL`
 
+![image](https://user-images.githubusercontent.com/65751992/204085351-1b02995f-d3d0-4078-90a8-1609ee9ad820.png)
+
+
 ### Get Daily Upcoming Earnings
 
 Get a list of all the companies whose quarterly earnings will be released today.
@@ -163,21 +177,24 @@ Command: `/earnings upcoming`
 
 Almost all the charting commands start with `/c `
 
-Commands: `/c [chart type] [parameters]`
+Commands: `/chart [chart type] [parameters]`
 
 ### Get price charts
 Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
-Command: `/c price [asset]`
+Command: `/chart price [asset]`
 
 Optional Paramenters:
 + Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
 + [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
 
 Example:
-+ `/c price btc-usdt`
-+ `/c price NFLX 30m`
-+ `/c price GBPJPY 1d` 
++ `/chart price btc-usdt`
++ `/chart price NFLX 30m`
++ `/chart price GBPJPY 1d` 
+
+![image](https://user-images.githubusercontent.com/65751992/204088184-bdcd13fa-283d-40c7-88db-3dbc81c69dbb.png)
+
 
 
 ### Comparing Price Actions
@@ -211,7 +228,7 @@ Command: `/fgs`
 
 ### Forex Longs vs. Shorts
 
-Looking at Longs vs. shorts is a way to figure out the direction the price is moving in.
+Looking at Forex Longs vs. shorts is a way to figure out the direction the price is moving in.
 
 Command: `/lsx [forex pair]`
 
