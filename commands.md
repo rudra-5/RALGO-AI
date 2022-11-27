@@ -13,7 +13,7 @@ Commands with '💎' next to them are either limited-use commands or Premium com
 
 + [Price Predictions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#price-predictions) 💎
 + [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels)
-+ [Watchlist](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist) 💎
++ [Watchlist Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist) 💎
 + [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener) 💎
 + [Company Financials](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
   + [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-earnings-chart)
