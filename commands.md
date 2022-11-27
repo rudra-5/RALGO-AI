@@ -174,7 +174,7 @@ Almost all the charting commands start with `/c `
 
 Commands: `/chart [chart type] [parameters]`
 
-### Get price charts
+### Price Charts
 Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
 Command: `/chart price [asset]`
@@ -191,18 +191,20 @@ Example:
 ![image](https://user-images.githubusercontent.com/65751992/204088184-bdcd13fa-283d-40c7-88db-3dbc81c69dbb.png)
 
 
-### Comparing Price Actions
+### Comparison Charts
 Compare price actions of 2 asset's price actions on a single chart
 
-Command: `/c compare [asset1] [asset2]`
+Command: `/chart compare [asset1] [asset2]`
 
 Optional Parameters:
 + Period: Should be greater than 1d. [Default: 3mo]
 
 Example:
-+ `/c compare AAPL NVDA`
-+ `/c compare BTC-USD ETH-USD`
-+ `/c compare EURUSD GBPUSD`
++ `/chart compare AAPL NVDA`
++ `/chart compare BTC-USD ETH-USD`
++ `/chart compare EURUSD GBPUSD`
+
+
 
 Note: you can only compare same type of asset, for example: you can only compare a stock to another stock, crypto to another crypto and forex to another forex
 
