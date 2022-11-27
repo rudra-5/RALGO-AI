@@ -235,26 +235,25 @@ Example:
 
 These commands can be used to activate your premium subscription
 
-#### `/activate`
+#### `/activate` (For Communities)
 
-⇒ For Free trial, just run `/activate`
+⇒ For Free trial, just run `/activate` \
 ⇒ For premium activation, run `/activate [license_key]`
 
-#### `/claim` 
-⇒ Activate Premium for *Individuals* 
+#### `/claim` (For Individuals)
+
+⇒ For premium activation, run `/claim [license_key]`
 
 **Parameter**
-> license_key: the key that you will revieve after the purchase of our premium subscription in your registered mail
++ license_key: the key that you will revieve after the purchase of our premium subscription in your registered mail
 
 ### Channel set-up commands
 
-These commands can be used by the server admins to set the channels to recieve updates like candlestick updates, price prediction updates, Fear-Greed Index, etc. `/channel` commands can only be used in the premium/trial activated servers
+These commands can be used by the server admins to set the channels to recieve updates like candlestick updates, price prediction updates, Fear-Greed Index, etc. '/channel' commands can only be used in the premium/trial activated servers
 
-`/channel set crypto` ⇒ Set crypto-related channels \
-`/channel set stocks` ⇒ Set Stocks-related channels \
-`/channel set forex` ⇒ Set forex-related channels \
-`/channel set predictions` ⇒ Set a channel to recieve the price prediction of a ticker (Every 2h) \
-`/channel create tracker` ⇒ Create a channel that tracks the price of an asset \
+**`/channel set {asset type}`** ⇒ Set a channel to receive the respective updates \
+**`/channel set predictions`** ⇒ Set a channel to recieve the price prediction of a ticker (Every 2h) \
+**`/channel create tracker`** ⇒ Create a channel that tracks the price of an asset 
 
 
 ## NEWS Articles
