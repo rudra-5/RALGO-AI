@@ -25,19 +25,10 @@
   + [Stocks Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#stocks-fear-greed-index)
   + [Forex longs vs. shorts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#forex-longs-vs-shorts)
 + [News Articles](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#news-articles)
++ [Miscellaneous commands]
 
 ----
 ### Things to keep in mind
-
-#### Possible Asset Formats
-+ Crypto Currencies => {Symbol} - {Symbol/Currency} 
-  + BTC-USD, ETH-USDT, SOL-CAD, SOL-BTC
-+ Stocks => {Symbol} 
-  + NFLX, AMZN, GOOGL, SPY
-+ Forex => {Forex pair} 
-  + USDJPY, EURUSD, GBPUSD
-+ Index => {Index symbol from [Yahoo Finance](https://finance.yahoo.com/)}
-
 
 #### Timeframe Suffix:
 + m - minutes
@@ -196,7 +187,6 @@ Example:
 ![image](https://user-images.githubusercontent.com/65751992/204088184-bdcd13fa-283d-40c7-88db-3dbc81c69dbb.png)
 
 
-
 ### Comparing Price Actions
 Compare price actions of 2 asset's price actions on a single chart
 
@@ -232,7 +222,28 @@ Looking at Forex Longs vs. shorts is a way to figure out the direction the price
 
 Command: `/lsx [forex pair]`
 
-Example: `/lsx EURUSD`
+Example: 
+![image](https://user-images.githubusercontent.com/65751992/204123477-cadb9bac-160f-4cc8-bac8-2edff37c7c16.png)
+
+## Premium Commands
+
+### Activation commands
+
+These commands can be used to activate your premium subscription
+
+`/activate` ⇒ Activate Premium/Free-Trial (7d) for your *Community*
+`/claim` ⇒ Activate Premium for *Individuals*
+
+### Channel set-up commands
+
+These commands can be used by the server admins to set the channels to recieve updates like candlestick updates, price prediction updates, Fear-Greed Index, etc. `/channel` commands can only be used in the premium/trial activated servers
+
+`/channel set crypto` ⇒ Set crypto-related channels
+`/channel set stocks` ⇒ Set Stocks-related channels
+`/channel set forex` ⇒ Set forex-related channels
+`/channel set predictions` ⇒ Set a channel to recieve the price prediction of a ticker (Every 2h)
+`/channel create tracker` ⇒ Create a channel that tracks the price of an asset
+
 
 ## NEWS Articles
 
@@ -243,7 +254,10 @@ Command: `/news [asset]`
 
 Example: `/news btc-usd`
 
+## Miscellaneous Commands
 
-
-
-
+`/search` ⇒ Search for the right symbols for your assets
+`/vote` ⇒ Vote for RALGO AI on top.gg
+`/invite` ⇒ invite RAGLO AI to your server
+`/queries`⇒ shows how many queries are left
+`/premium` ⇒ Info about our premium subscription
