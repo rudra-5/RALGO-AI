@@ -267,8 +267,8 @@ Example: `/news btc-usd`
 
 ## Miscellaneous Commands
 
-`/search` ⇒ Search for the right symbols for your assets
-`/vote` ⇒ Vote for RALGO AI on top.gg
-`/invite` ⇒ invite RAGLO AI to your server
-`/queries`⇒ shows how many queries are left
+`/search` ⇒ Search for the right symbols for your assets \
+`/vote` ⇒ Vote for RALGO AI on top.gg \
+`/invite` ⇒ invite RAGLO AI to your server \
+`/queries`⇒ shows how many queries are left \
 `/premium` ⇒ Info about our premium subscription
