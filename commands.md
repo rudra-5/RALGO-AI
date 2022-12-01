@@ -50,7 +50,7 @@ Get Daily Closing price predictions. These prices are estimated by an Artificial
 The Message sent by the bot consists of the current price of the asset, Predicted price, Day High, Day Low, Support-Resistance and indicator value (optional)
 Results are the best when used in combination with [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels) and other indicators.
 
-You can also Upvote/Downvote a prediction if you think the predictions are accurate or not. You can only vote when the markets are open.
+You can also Upvote/Downvote a prediction if you think the predictions are accurate or not. You can only vote once when the markets are open.
  
 Command:  `/pred [asset] <indicator> <indicator length> <indicator timeframe>`
 
@@ -63,7 +63,7 @@ Example:
 
 Optional Parameters:
 + Indicator - It must be one of the indicators given below
-+ Indicator timeframe - 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo. Default is `1d`
++ Indicator timeframe - 15m, 30m, 60m, 90m, 1h, 1d, 1wk, 1mo, 3mo. Default is `1d`
 + Indicator length - Length of the indicator
 
 
@@ -93,7 +93,7 @@ Available indicators:
 
 ## Support-Resistance Levels
 
-Get three levels of Support and Resistance based on Pivot-Point Indicator.
+Get three levels of Support and Resistance each. It is based on the Pivot-Point Indicator.
 
 command: `/sr [level] [asset]`
 
@@ -112,7 +112,7 @@ There are 2 levels available:
 
 ## Watchlist
 
-Create a free watchlist consisting upto 7 assets and a premium watchlist with upto 20 assets.
+Create a free watchlist consisting upto 7 assets and a [premium](https://ralgo.gumroad.com/l/premium) watchlist with upto 20 assets.
 
 + Add assets to your watchlist
   + Command: `/wl-add [asset]`
@@ -254,8 +254,17 @@ These commands can be used to activate your premium subscription
 These commands can be used by the server admins to set the channels to recieve updates like candlestick updates, price prediction updates, Fear-Greed Index, etc. '/channel' commands can only be used in the premium/trial activated servers
 
 **`/channel set {asset type}`** ⇒ Set a channel to receive the respective updates \
+
+![image](https://user-images.githubusercontent.com/65751992/205140024-186ca060-20c5-4120-a774-dd0788721dd5.png)
+
 **`/channel set predictions`** ⇒ Set a channel to recieve the price prediction of a ticker (Every 2h) \
+
+![image](https://user-images.githubusercontent.com/65751992/205140577-02bd324b-a6a7-4c8b-8469-dce1826fa138.png)
+
 **`/channel create tracker`** ⇒ Create a channel that tracks the price of an asset 
+
+![image](https://user-images.githubusercontent.com/65751992/205140652-7fa6f433-6d4e-4978-9f64-81bb73434963.png)
+
 
 
 ## NEWS Articles
