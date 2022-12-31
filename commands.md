@@ -52,18 +52,15 @@ Results are the best when used in combination with [Support-Resistance levels](h
 
 You can also Upvote/Downvote a prediction if you think the predictions are accurate or not. You can only vote once when the markets are open.
  
-Command:  `/pred [asset] <indicator> <indicator length> <indicator timeframe>`
+Command:  `/pred [ticker] <indicator> <indicator length>`
 
 Example:
-+ `/pred btc-usdt`: price prediction of Bitcoin in terms of USD Tether
-+ `/pred eth-btc`: price prediction of Etherium in terms of Bitcoin
-+ `/pred btc-usd`: price Prediction of Bitcoin interms of US Dollars
-+ `/pred spy`: Price prediction of Spy
-+ `/pred eurusd`: Price prediction of EURUSD forex pair <br></br>
++ `/pred ticker:btc-usdt` : price prediction of Bitcoin in terms of USD Tether
++ `/pred ticker:spy`: Price prediction of Spy
++ `/pred ticker:eurusd`: Price prediction of EURUSD forex pair <br></br>
 
 Optional Parameters:
 + Indicator - It must be one of the indicators given below
-+ Indicator timeframe - 15m, 30m, 60m, 90m, 1h, 1d, 1wk, 1mo, 3mo. Default is `1d`
 + Indicator length - Length of the indicator
 
 
@@ -74,22 +71,22 @@ Optional Parameters:
 Available indicators: 
 + Relative Strength Index => current RSI value
   + Default: 14
-  + `/pred btc-usd rsi`
+  + `/pred ticker:btc-usd indicator:rsi`
 + Average True Range => current ATR value
   + Default: 14
-  + `/pred usdjpy atr`
+  + `/pred ticker:usdjpy indicator:atr`
 + Stochastic RSI  => Current StochRSI value
   + Default: 14
-  + `/pred amzn stochrsi`
+  + `/pred ticker:amzn indicator:stochrsi`
 + Exponential Moving Average => current EMA value
   + Default: 10
-  + `/pred nflx ema`
+  + `/pred ticker:nflx indicator:ema`
 + Supertrend  => trend [uptrend/downtrend]
   + Default: 10
-  + `/pred eth-usd supertrend`
+  + `/pred ticker:eth-usd indicator:supertrend`
 + Relative Volatility Index => current RVI value
   + Default: 14
-  + `/pred btc-usd rvi`
+  + `/pred ticker:btc-usd indicator:rvi`
 
 ## Support-Resistance Levels
 
