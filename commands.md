@@ -9,25 +9,24 @@
 
 ----
 ## Content:
-Commands with '💎' next to them are either limited-use commands or Premium commands
 
-+ [Price Predictions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#price-predictions) 💎
++ [Price Predictions](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#price-predictions) 
 + [Support-Resistance levels](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#support-resistance-levels)
-+ [Watchlist Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist) 💎
-+ [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener) 💎
++ [Watchlist Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#watchlist) 
++ [Screener](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#screener) 
 + [Company Financials](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
   + [Earnings charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-earnings-chart)
-  + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings) 💎
+  + [Daily Upcoming Earnings](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#get-daily-upcoming-earnings) 
 + [Charting Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
   + [Price Charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#charting-commands)
-  + [Comparison charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions) 💎
+  + [Comparison charts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#comparing-price-actions) 
 + [Market Sentiments](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#market-sentiments)
   + [Bitcoin's Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#bitcoins-fear-greed-index)
-  + [Stocks Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#stocks-fear-greed-index) 💎
-  + [Forex longs vs. shorts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#forex-longs-vs-shorts) 💎
-+ [Premium Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#premium-commands) 💎
-  + [Activation Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#activation-commands) 💎
-  + [Channel Set-up Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#channel-set-up-commands) 💎
+  + [Stocks Fear-Greed Index](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#stocks-fear-greed-index) 
+  + [Forex longs vs. shorts](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#forex-longs-vs-shorts) 
++ [Premium Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#premium-commands) 
+  + [Activation Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#activation-commands) 
+  + [Channel Set-up Commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#channel-set-up-commands) 
 + [News Articles](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#news-articles)
 + [Miscellaneous commands](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#miscellaneous-commands)
 
@@ -52,7 +51,10 @@ Results are the best when used in combination with [Support-Resistance levels](h
 
 You can also Upvote/Downvote a prediction if you think the predictions are accurate or not. You can only vote once when the markets are open.
  
-Command:  `/pred [ticker] <indicator> <indicator length>`
+Command:  
+```
+/pred [ticker] <indicator> <indicator length>
+```
 
 Example:
 + `/pred ticker:btc-usdt` : price prediction of Bitcoin in terms of USD Tether
@@ -92,7 +94,10 @@ Available indicators:
 
 Get three levels of Support and Resistance each. It is based on the Pivot-Point Indicator.
 
-command: `/sr [level] [asset]`
+command: 
+```
+/sr [level] [asset]
+```
 
 ![image](https://user-images.githubusercontent.com/65751992/204083764-050b5acb-3bc6-4757-9b95-5a1a6cda540a.png)
 
@@ -136,7 +141,10 @@ You can then get the price predictions or get current prices of the assets in yo
 ## Screener
 
 Get screened assets, for example, get top gainers or losers.
-Command: `/screen [screener name]`
+Command: 
+```
+/screen [screener name]
+```
 
 Available Screeners:
 + gainers (stocks)
@@ -150,11 +158,14 @@ Available Screeners:
 
 Get earnings chart, Company's last 4 Quarter **Estimated vs. Actual Earnings** and its current quarter's Estimate
 
-Command: `/earnings chart [Stock Symbol]`
+Command: 
+```
+/earnings chart [Stock Symbol]
+```
 
 Example:
-+ `/earnings chart TSLA`
-+ `/earnings chart AAPL`
++ `/earnings chart symbol:TSLA`
++ `/earnings chart symbol:AAPL`
 
 ![image](https://user-images.githubusercontent.com/65751992/204085351-1b02995f-d3d0-4078-90a8-1609ee9ad820.png)
 
@@ -167,41 +178,78 @@ Command: `/earnings upcoming`
 
 ## Charting Commands
 
-Almost all the charting commands start with `/c `
-
 Commands: `/chart [chart type] [parameters]`
 
 ### Price Charts
-Get price charts of asset for a range of timeframe. It will show upto 60 candles on the charts
 
-Command: `/chart price [asset]`
+Get price charts of asset for a range of timeframe.
+
+Command: 
+```
+/chart price [ticker] <interval> <indicator>
+```
 
 Optional Paramenters:
-+ Timeframe: 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo [Default: 1h]
++ Interval: 15m, 30m, 1h, 1d, 1wk, 1mo [Default: 1h]
 + [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
 
 Example:
-+ `/chart price btc-usdt`
-+ `/chart price NFLX 30m`
-+ `/chart price GBPJPY 1d` 
++ `/chart price ticker:btc-usdt`
++ `/chart price ticker:NFLX interval:30m`
++ `/chart price ticker:GBPJPY interval:1d indicator:EMA indicator_length:20` 
 
 ![image](https://user-images.githubusercontent.com/65751992/204088184-bdcd13fa-283d-40c7-88db-3dbc81c69dbb.png)
 
+### Price Charts With Support Resistance Levels
+
+Get price charts of asset with support resistance levels plotted on the chart.
+
+Command: 
+```
+/chart price-sr [ticker] <interval> <indicator>
+```
+
+Optional Paramenters:
++ Interval: 1h, 1d [Default: 1h]
+
+Example:
++ `/chart price-sr ticker:btc-usdt`
++ `/chart price-sr ticker:NFLX interval:1h`
++ `/chart price-sr ticker:GBPJPY interval:1d indicator:EMA indicator_length:20` 
+
+### Price Charts With Fibonacci levels
+
+Get price charts of asset with fibonacci levels on them.
+
+Command: 
+```
+/chart price [ticker] <interval> <indicator>
+```
+
+Optional Paramenters:
++ Interval: 15m, 30m, 1h, 1d, 1wk, 1mo [Default: 1h]
++ [What do all the suffix mean?](https://github.com/rudra-5/RALGO-AI/blob/main/commands.md#timeframe-suffix)
+
+Example:
++ `/chart price-fib ticker:btc-usdt`
++ `/chart price-fib ticker:NFLX interval:30m`
++ `/chart price-fib ticker:GBPJPY interval:1d indicator:EMA indicator_length:20` 
 
 ### Comparison Charts
 Compare price actions of 2 asset's price actions on a single chart
 
-Command: `/chart compare [asset1] [asset2]`
+Command: 
+```
+/chart compare [ticker1] [ticker2] <period>
+```
 
 Optional Parameters:
 + Period: Should be greater than 1d. [Default: 3mo]
 
 Example:
-+ `/chart compare AAPL NVDA`
-+ `/chart compare BTC-USD ETH-USD`
-+ `/chart compare EURUSD GBPUSD`
-
-
++ `/chart compare ticker1:AAPL ticker2:NVDA`
++ `/chart compare ticker1:BTC-USD ticker2:ETH-USD`
++ `/chart compare ticker1:EURUSD ticker2:GBPUSD`
 
 Note: you can only compare same type of asset, for example: you can only compare a stock to another stock, crypto to another crypto and forex to another forex
 
@@ -228,6 +276,18 @@ Command: `/lsx [forex pair]`
 Example: 
 ![image](https://user-images.githubusercontent.com/65751992/204123477-cadb9bac-160f-4cc8-bac8-2edff37c7c16.png)
 
+### Crypto Longs vs. Shorts
+
+Longs vs. Shorts data from Binance.
+
+Command: `/lsc [crypto]`
+
+### Crypto 30 Days Longs vs. Shorts
+
+Longs vs. Shorts data of Past 30 days from Binance.
+
+Command: `/lsc-30d [crypto]`
+
 ## Premium Commands
 
 ### Activation commands
@@ -250,19 +310,18 @@ These commands can be used to activate your premium subscription
 
 These commands can be used by the server admins to set the channels to recieve updates like candlestick updates, price prediction updates, Fear-Greed Index, etc. '/channel' commands can only be used in the premium/trial activated servers
 
-**`/channel set {asset type}`** ⇒ Set a channel to receive the respective updates \
+`/channel set crypto`: set a channel to receive regular crypto-related updates like fear greed, Candlestick pattern alerts, support resistance alert and trending crypto \
+`/channel set stocks`: set a channel to receive regular updates like fear greed, Candlestick pattern alerts, support resistance alert and screened market data \
+`/channel set forex`: set a channel to receive regular forex-related updates like Candlestick pattern alerts and support resistance alert
 
-![image](https://user-images.githubusercontent.com/65751992/205140024-186ca060-20c5-4120-a774-dd0788721dd5.png)
+`/channel set prediction`: set a channel to receive price predictions of an asset every hour \
+`/channel set pattern`: set a channel to receive candlestick pattern alerts \
+`/channel set sr-alert`: set a channel to receive support resistance alerts \
+`/channel set longshort`: set a channel to receive daily Longs vs. Shorts of forex and crypto
 
-**`/channel set predictions`** ⇒ Set a channel to recieve the price prediction of a ticker (Every 2h) \
+`/channel create tracker`: Create price trackers 
 
-![image](https://user-images.githubusercontent.com/65751992/205140577-02bd324b-a6a7-4c8b-8469-dce1826fa138.png)
-
-**`/channel create tracker`** ⇒ Create a channel that tracks the price of an asset 
-
-![image](https://user-images.githubusercontent.com/65751992/205140652-7fa6f433-6d4e-4978-9f64-81bb73434963.png)
-
-
+Note: `/channel remove` command can be used to unset an alert
 
 ## NEWS Articles
 
