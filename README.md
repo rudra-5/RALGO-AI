@@ -15,16 +15,12 @@ So, what are you waiting for? [Add RALGO AI](https://discord.com/api/oauth2/auth
 ### Main Features:
 + Price Predictions
 + Support-resistance levels
-+ News Aticles
 + watchlist
 + Screener
-+ Earnings charts
-+ Daily Upcoming Earnings
-+ Price Charts
-+ Compare 2 asset's Price actions
-+ Bitcoin Fear-Greed Index Chart
-+ Stocks Fear-Greed Index Chart
-+ Forex longs vs. shorts
++ Company Financials
++ Charting
++ Market Sentiment
++ News
 
 ----
 
